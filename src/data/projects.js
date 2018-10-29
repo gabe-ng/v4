@@ -1,0 +1,60 @@
+const data = [
+  {
+    title: "Social Scape",
+    intro: "Social media platform to connect, chat, and share content with friends",
+    image: "",
+    repoLink: "https://github.com/gabe-ng/social-scape",
+    desc: "",
+    featured: true,
+  },
+  {
+    title: "Wayfarer",
+    intro: "Online community to share travel experiences in popular cities around the world",
+    image: "",
+    repoLink: "https://github.com/gabe-ng/wayfarer",
+    desc: "",
+    featured: true,
+  },
+  {
+    title: "Suite Health",
+    intro: "Health service to search food macronutrients and workouts and share custom meals and exercise circuits",
+    image: "",
+    repoLink: "https://github.com/gabe-ng/suite-health",
+    desc: "",
+    featured: true,
+  },
+  {
+    title: "Personal Site V3",
+    intro: "Third iteration of my personal website",
+    image: "",
+    repoLink: "https://github.com/gabe-ng/gabe-ng.github.io",
+    desc: "",
+    featured: true,
+  },
+  {
+    title: "Bartender",
+    intro: "A cocktail search app helping you decide what to drink next",
+    image: "",
+    repoLink: "https://github.com/gabe-ng/bartender",
+    desc: "",
+    featured: false,
+  },
+  {
+    title: "DevHub",
+    intro: "Search for Developer jobs, articles, and resources",
+    image: "",
+    repoLink: "https://github.com/gabe-ng/devhub",
+    desc: "",
+    featured: false,
+  },
+  {
+    title: "Frogger Clone",
+    intro: "Frogger arcade game clone made using HTML Canvas",
+    image: "",
+    repoLink: "https://github.com/gabe-ng/frogger-clone",
+    desc: "",
+    featured: false,
+  },
+];
+
+export default data;
