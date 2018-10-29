@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Navbar from "../components/Navbar";
-import Intro from "../components/Intro";
+import Index from "../components/Index";
 import Content from "../containers/Content";
 
 class Main extends Component {
@@ -9,7 +9,8 @@ class Main extends Component {
     return (
       <div>
         <Navbar />
-        <Intro />
+        <Index />
+        <Content />
       </div>
     );
   }

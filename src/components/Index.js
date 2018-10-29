@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Intro = () => {
+const Index = () => {
     return (
         <div>
-            Intro
+            Index
         </div>
     )
 }
 
-export default Intro;
+export default Index;
