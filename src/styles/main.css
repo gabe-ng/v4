@@ -1,4 +1,14 @@
+/*** Fonts ***/
+
+/*** Layout ***/
+
+@import "./components/base.css";
+
 /*** Components ***/
 
-/* Navbar */
 @import "./components/navbar.css";
+@import "./components/intro.css";
+@import "./components/about.css";
+@import "./components/projects.css";
+@import "./components/experience.css";
+@import "./components/contact.css";

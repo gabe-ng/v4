@@ -8,10 +8,10 @@ const Navbar = () => {
                 <NavLink to="/" exact>Gabriel Ng</NavLink>
             </h1>
             <ul className="links">
-                <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/projects">Projects</NavLink></li>
-                <li><NavLink to="/experience">Experience</NavLink></li>
-                <li><NavLink to="/contact">Contact</NavLink></li>
+                <li><NavLink className="link" to="/about">About</NavLink></li>
+                <li><NavLink className="link" to="/projects">Projects</NavLink></li>
+                <li><NavLink className="link" to="/experience">Experience</NavLink></li>
+                <li><NavLink className="link" to="/contact">Contact</NavLink></li>
             </ul>
         </nav>
     )
