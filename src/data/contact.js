@@ -1,28 +1,28 @@
-import faGithub from "@fortawesome/fontawesome-free-brands/faGithub";
-import faFacebook from "@fortawesome/fontawesome-free-brands/faFacebookF";
-import faLinkedinIn from "@fortawesome/fontawesome-free-brands/faLinkedinIn";
-import faEnvelope from "@fortawesome/fontawesome-free-regular/faEnvelope";
+import { github } from 'react-icons-kit/fa/github'
+import { facebook } from 'react-icons-kit/fa/facebook'
+import { linkedin } from 'react-icons-kit/fa/linkedin'
+import { envelope } from 'react-icons-kit/fa/envelope'
 
 const data = [
     {
         link: "https://github.com/gabe-ng",
         label: "Github",
-        icon: faGithub
+        icon: github
     },
     {
         link: "https://www.facebook.com/gabengatcal",
         label: "Facebook",
-        icon: faFacebook
+        icon: facebook
     },
     {
         link: "https://www.linkedin.com/in/gabriel-n/",
         label: "LinkedIn",
-        icon: faLinkedinIn
+        icon: linkedin
     },
     {
         link: "mailto:gabe.v.ng@gmail.com",
         label: "Email",
-        icon: faEnvelope
+        icon: envelope
     },
 ]
 
