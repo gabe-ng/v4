@@ -11,7 +11,7 @@ class Content extends Component {
 
     render () {
         return (
-            <div>
+            <div className="content">
                 <Switch>
                     <Route path="/" exact component={Intro} /> 
                     <Route path="/about" exact component={About} /> 

@@ -1,4 +1,6 @@
 .base {
+    height: 100%;
+    min-height: 84vh;
     display: flex;
     padding: 3em;
     margin: 0 auto;

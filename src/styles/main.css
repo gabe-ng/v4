@@ -13,6 +13,7 @@ body {
 /*** Components ***/
 @import "./components/navbar.css";
 @import "./components/sidebar.css";
+@import "./components/content.css";
 @import "./components/intro.css";
 @import "./components/about.css";
 @import "./components/projects.css";
