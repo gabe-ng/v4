@@ -1,24 +1,28 @@
 .main-nav {
     display: flex;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .main-nav h1 {
-    font-size: 1.3em;
-    padding: 1.1em 2em;
-    letter-spacing: 2px;
-    border-right: 1px solid grey;
-    border-: 1px solid grey;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.2em 2.2em;
+    letter-spacing: .4em;
+    border-right: 1px solid lightgrey;
 }
 
 .main-nav .links {
+    color: rgb(165, 165, 165);
+    text-transform: uppercase;
     display: flex;
     align-items: center;
 }
 
 .main-nav .link {
-    font-size: 1.1em;
-    margin-left: 1em;
-    padding-right: 1em;
-    border-right: 1px solid grey;
+    font-size: .8em;
+    letter-spacing: .3em;
+    margin-left: 1.5em;
+    padding-right: 1.5em;
+    border-right: 1px solid lightgrey;
 }
