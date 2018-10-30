@@ -1,9 +1,13 @@
+import socialscape from "../images/socialscape.png";
+import wayfarer from "../images/wayfarer.png";
+import suitehealth from "../images/suitehealth.png";
+
 const data = [
   {
     title: "Social Scape",
     desc: "Social media platform to connect, chat, and share content with friends",
     tech: ["React", "Redux", "Node.js", "Express", "MongoDB", "Multer", "JSON Web Tokens", "BCrypt", "Socket.IO"],
-    image: "../images/socialscape.png",
+    image: socialscape,
     repoLink: "https://github.com/gabe-ng/social-scape",
     date: "August 2018",
     featured: true,
@@ -12,7 +16,7 @@ const data = [
     title: "Wayfarer",
     desc: "Online community to share travel experiences in popular cities around the world",
     tech: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
-    image: "../images/wayfarer.png",
+    image: wayfarer,
     repoLink: "https://github.com/gabe-ng/wayfarer",
     date: "July 2018",
     featured: true,
@@ -21,7 +25,7 @@ const data = [
     title: "Suite Health",
     desc: "Health service to search food macronutrients and workouts and share custom meals and exercise circuits",
     tech: ["JS", "jQuery", "CSS", "Python", "Django", "Postgres"],
-    image: "../images/suitehealth.png",
+    image: suitehealth,
     repoLink: "https://github.com/gabe-ng/suite-health",
     date: "July 2018",
     featured: true,
