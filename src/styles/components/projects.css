@@ -1,0 +1,32 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects header {
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3em;
+    border-bottom: 1px solid lightgrey;
+}
+
+.projects .title {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.projects section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em 0 3em 3em;
+}
+
+.project .featured {
+   
+}

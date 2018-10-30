@@ -7,6 +7,8 @@ import Projects from "../components/Projects";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 
+import data from "../data";
+
 class Content extends Component {
 
     render () {
@@ -15,7 +17,7 @@ class Content extends Component {
                 <Switch>
                     <Route path="/" exact component={Intro} /> 
                     <Route path="/about" exact component={About} /> 
-                    <Route path="/projects" exact component={Projects} /> 
+                    <Route path="/projects" exact render={props => <Projects {...props } data={data.projects} />}/>
                     <Route path="/experience" exact component={Experience} /> 
                     <Route path="/contact" exact component={Contact} /> 
                 </Switch>

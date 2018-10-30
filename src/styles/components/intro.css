@@ -4,7 +4,7 @@
 }
 
 .intro header {
-    height: 10em;
+    height: 11em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,5 +20,9 @@
 }
 
 .intro section {
-    height: 10em;
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3em;
 }
