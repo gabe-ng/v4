@@ -1,6 +1,7 @@
 .content {
-    width: 65%;
+    width: 63%;
     height: 100%;
     margin: 0 auto;
-    background: yellow;
+    border: 1px solid lightgrey;
+    background: white;
 }

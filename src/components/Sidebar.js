@@ -20,7 +20,7 @@ const Sidebar = () => {
           <ul>
             {data.map(icon => <li key={icon.label} className="link">
                     <a href={`${icon.link}`} target="_blank" rel="noopener noreferrer">
-                  <Icon icon={icon.icon} />
+                  <Icon icon={icon.icon} size={22}/>
                 </a>
               </li>)}
           </ul>

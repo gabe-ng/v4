@@ -1,7 +1,7 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 33%;
     margin: 0 auto;
     background-color: teal;
 }
@@ -34,4 +34,9 @@
 .sidebar .contact ul {
     display: flex;
     margin-top: 2em;
+}
+
+.sidebar .contact .link {
+    color: black;
+    padding-right: 1em;
 }

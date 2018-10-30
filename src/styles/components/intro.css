@@ -1,0 +1,24 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro header {
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3em;
+    border-bottom: 1px solid lightgrey;
+}
+
+.intro .title {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.intro section {
+    height: 10em;
+}
