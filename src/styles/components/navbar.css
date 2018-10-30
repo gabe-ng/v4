@@ -1,9 +1,11 @@
 .main-nav {
+    background: white;
     display: flex;
     width: 100%;
     position: fixed;
     margin-bottom: 3em;
     border-bottom: 1px solid lightgrey;
+    z-index: 10;
 }
 
 .main-nav h1 {
