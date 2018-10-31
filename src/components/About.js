@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Icon } from "react-icons-kit";
-import { triangleRight } from 'react-icons-kit/oct/triangleRight'
+import { caretRight } from 'react-icons-kit/fa/caretRight';
 
 const About = props => (
   <div className="about">
@@ -21,17 +21,17 @@ const About = props => (
           <ul>
             <h4>Front End</h4>
             {props.data.skills.frontend.map(skill => 
-              <li key={skill} className="skill" ><Icon icon={triangleRight} size={12} /> {skill}</li>)}
+              <li key={skill} className="skill" ><Icon icon={caretRight} size={12} className="icon"/> {skill}</li>)}
           </ul>
           <ul>
             <h4>Back End</h4>
             {props.data.skills.backend.map(skill =>
-              <li key={skill} className="skill"><Icon icon={triangleRight} size={12}/> {skill}</li>)}
+              <li key={skill} className="skill"><Icon icon={caretRight} size={12} className="icon"/> {skill}</li>)}
           </ul>
           <ul>
             <h4>Development</h4>
             {props.data.skills.development.map(skill =>
-              <li key={skill} className="skill"><Icon icon={triangleRight} size={12}/> {skill}</li>)}
+              <li key={skill} className="skill"><Icon icon={caretRight} size={12} className="icon"/> {skill}</li>)}
           </ul>
         </div>
       </article>
@@ -39,12 +39,17 @@ const About = props => (
           <h3>When I'm not coding, I'm probably</h3>
           <ul>
             {props.data.hobbies.map(hobby => (
-            <li key={hobby} className="hobby"><Icon icon={triangleRight} size={12} />{hobby}</li>
+            <li key={hobby} className="hobby"><Icon icon={caretRight} size={12} className="icon"/> {hobby}</li>
             ))}
           </ul>
       </article>
       <artcile className="facts">
-          {props.data.facts}
+        <h3>Some facts about me</h3>
+        <ul>
+          {props.data.facts.map(fact => (
+            <li key={fact} className="fact"><Icon icon={caretRight} size={12} className="icon"/> {fact}</li>
+          ))}
+        </ul>
       </artcile>
     </section>
   </div>
