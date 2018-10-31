@@ -27,7 +27,7 @@
     padding: 3em 0;
 }
 
-.project.featured {
+.featured.project{
    border: 1px solid lightgrey;
    width: 90%;
    margin: 1.5em auto;
@@ -38,6 +38,52 @@
 .project-image {
     width: 100%;
 }
+
+.others-title {
+    font-size: 2em;
+    margin: 1em auto;
+}
+
+.other {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 1.5em auto;
+}
+.other .project {
+    width: 45%;
+    height: 13em;
+    margin: 1em;
+    border: 1px solid lightgrey;
+}
+
+.other .gh {
+    float: right;
+    padding: 1em 1em 0 0;
+}
+
+.other .code {
+    padding: 1em 0 0 1em;
+}
+
+.other div {
+    padding: 1em 0 0 1em;
+}
+
+.other h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: .5em;
+}
+
+.other .date {
+    font-style: italic;
+}
+
+.other p {
+    padding: 1em 0;
+}
+
 
 .tech {
     display: inline;
