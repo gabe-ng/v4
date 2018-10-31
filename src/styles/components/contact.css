@@ -1,0 +1,30 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact header {
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2em;
+    padding-left: 3em;
+    border-bottom: 1px solid lightgrey;
+}
+
+.contact .title {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+}
+
+.contact section {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

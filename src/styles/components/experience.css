@@ -38,20 +38,20 @@
 
 .job h2 {
     font-size: 1.3em;
-    padding-bottom: .5em;
+    padding-bottom: 1em;
 }
 
-.job h3 {
+.job span {
+    float: right;
     font-style: italic;
-    padding-bottom: .5em;
 }
 
 .job a {
     font-size: 1.1em;
-    margin-bottom: 1em;
     border-bottom: 1px dotted grey;
 }
 
 .job p {
     padding-top: 1em;
+    line-height: 2;
 }

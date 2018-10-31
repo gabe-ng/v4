@@ -10,7 +10,7 @@ const Experience = (props) => (
         {props.data.map(job => (
           <article className="job">
           <h2>{job.position}</h2>
-          <a href={`${job.link}`} target="_blank" rel="noopener noreferrer">{job.company}</a>
+          <a href={`${job.link}`} target="_blank" rel="noopener noreferrer">{job.company}</a><span>{job.duration}</span>
           <p>{job.description}</p>
           </article>
         ))}
