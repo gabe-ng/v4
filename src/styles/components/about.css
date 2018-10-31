@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 2em;
     padding-left: 3em;
     border-bottom: 1px solid lightgrey;
 }
@@ -31,8 +32,11 @@
     justify-content: center;
 }
 
-.introduction {
-    margin: 3em 0;
+.introduction,
+.skills,
+.hobbies,
+.facts {
+    margin: 1.3em 0;
 }
 
 .introduction h3,
@@ -43,15 +47,15 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1em;
-    padding-bottom: 1.5em;
+    padding-bottom: 2em;
 }
 
 .introduction p {
     line-height: 2;
+    padding-bottom: 1.1em;
 }
 
 .skills-wrap {
-    margin-top: .5em;
     display: flex;
 }
 
@@ -64,11 +68,11 @@
 }
 
 .skill {
-    padding: 0 0 1.2em 1em;;
+    padding: 0 0 1.3em 1em;;
 }
 
 .hobby,
 .fact {
-    padding-bottom: 1.4em;
+    padding-bottom: 1.3em;
 }
 

@@ -3,12 +3,21 @@
     flex-direction: column;
     width: 33%;
     margin: 0 auto;
-    background-color: teal;
+}
+
+.sidebar section {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.text {
+    border-bottom: 1px dotted grey;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .sidebar .header {
     height: 20em;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid grey;
     margin-bottom: 2em;
 }
 
@@ -21,14 +30,10 @@
     padding-bottom: .75em;
 }
 
-.sidebar .header p {
-
-}
-
 .sidebar .intro p {
     height: 15em;
     line-height: 2;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid grey;
 }
 
 .sidebar .contact ul {
