@@ -18,22 +18,25 @@ const Projects = (props) => {
         {featured.map(project => (
           <article key={project.title} className="featured project">
             <img src={project.image} alt="" className="project-image"/>
-            <h2>{project.title}</h2><span>{project.date}</span>
-            <p>{project.desc}</p>
-            <ul className="tech-list">
-              {project.tech.map(tech => <li className="tech">{tech}</li>)}
-            </ul>
-            <a href={`${project.repo}`} target="_blank" rel="noopener noreferrer"><Icon icon={githubSquare} size={30}/></a>
+            <div>
+              <h2>{project.title}</h2>
+              <a href={`${project.repoLink}`} target="_blank" rel="noopener noreferrer" className="gh"><Icon icon={githubSquare} size={30}/></a>
+              <span className="date">{project.date}</span>
+              <p>{project.desc}</p>
+              <ul className="tech-list">
+                {project.tech.map(tech => <li className="tech">{tech}</li>)}
+              </ul>
+            </div>
           </article>
         ))}
 
-        <h1 className="others-title">Other Projects</h1>
+        <h1 className="other-title">Other Projects</h1>
 
         <div className="other">
         {nonfeatured.map(project => (
           <article key={project.title} className="project">
             <Icon icon={code} size={30} className="code"/>
-            <a href={`${project.repo}`} target="_blank" rel="noopener noreferrer"><Icon icon={githubSquare} size={30} className="gh"/></a>
+            <a href={`${project.repoLink}`} target="_blank" rel="noopener noreferrer"><Icon icon={githubSquare} size={30} className="gh"/></a>
             <div>
               <h2>{project.title}</h2><span className="date">{project.date}</span>
               <p>{project.desc}</p>
