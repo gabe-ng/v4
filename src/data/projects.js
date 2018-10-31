@@ -63,7 +63,7 @@ const data = [
   {
     title: "Bartender",
     desc: "A cocktail search app helping you decide what to drink next",
-    tech: ["JS", "jQuery", "CSS", "Node.js", "Express", "MongoDB"],
+    tech: ["jQuery", "CSS", "Node.js", "Express", "MongoDB"],
     image: bartender,
     repoLink: "https://github.com/gabe-ng/bartender",
     date: "June 2018",

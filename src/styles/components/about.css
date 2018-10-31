@@ -1,0 +1,28 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about header {
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3em;
+    border-bottom: 1px solid lightgrey;
+}
+
+.about .title {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.about section {
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3em;
+}
