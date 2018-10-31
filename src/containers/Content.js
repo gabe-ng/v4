@@ -16,7 +16,7 @@ class Content extends Component {
             <div className="content">
                 <Switch>
                     <Route path="/" exact component={Intro} /> 
-                    <Route path="/about" exact component={About} /> 
+                    <Route path="/about" exact render={props => <About {...props} data={data.about} />} />
                     <Route path="/projects" exact render={props => <Projects {...props } data={data.projects} />}/>
                     <Route path="/experience" exact component={Experience} /> 
                     <Route path="/contact" exact component={Contact} /> 

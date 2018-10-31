@@ -20,9 +20,45 @@
 }
 
 .about section {
-    height: 11em;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 3em;
+}
+
+.introduction {
+    margin: 3em 0;
+}
+
+.introduction h3,
+.skills h3 {
+    font-size: .8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding-bottom: 1em;
+}
+
+.introduction p {
+    line-height: 2;
+}
+
+.skills-wrap {
+    margin-top: .5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills h4 {
+    margin-left: -1.5em;
+    padding-bottom: 1em;
+}
+
+.skills ul{
+    padding-bottom: 1em;
+}
+
+.skill {
+    padding-bottom: 1em;
 }
