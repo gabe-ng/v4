@@ -20,6 +20,11 @@
     letter-spacing: .15em;
 }
 
+.projects .subtitle {
+    letter-spacing: .1em;
+    opacity: .7;
+}
+
 .projects section {
     height: 100%;
     display: flex;

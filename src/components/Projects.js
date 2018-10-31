@@ -12,7 +12,7 @@ const Projects = (props) => {
     <div className="projects">
       <header>
         <h1 className="title">Projects</h1>
-        <p>Some things I've built</p>
+        <p className="subtitle">Some things I've built</p>
       </header>
       <section>
         {featured.map(project => (

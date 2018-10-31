@@ -25,6 +25,11 @@
     letter-spacing: .15em;
 }
 
+.about .subtitle {
+    letter-spacing: .1em;
+    opacity: .7;
+}
+
 .about section {
     width: 90%;
     margin: 0 auto;

@@ -46,6 +46,7 @@
 }
 
 .sidebar-contact .link {
-    color: black;
+    color: grey;
+    opacity: .7;
     padding-right: 1em;
 }

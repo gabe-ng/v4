@@ -21,10 +21,24 @@
     letter-spacing: .15em;
 }
 
+.contact .subtitle {
+    letter-spacing: .1em;
+    opacity: .7;
+}
+
 .contact section {
     width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.contact ul {
+    display: flex;
+}
+
+.contact .link {
+    padding-right: 1em;
+    opacity: .6;
 }
