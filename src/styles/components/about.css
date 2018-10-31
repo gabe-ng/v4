@@ -32,12 +32,13 @@
 }
 
 .introduction h3,
-.skills h3 {
+.skills h3,
+.hobbies h3 {
     font-size: .8em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1em;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 }
 
 .introduction p {
@@ -47,18 +48,22 @@
 .skills-wrap {
     margin-top: .5em;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .skills h4 {
-    margin-left: -1.5em;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 }
 
 .skills ul{
-    padding-bottom: 1em;
+    padding: 0 5em 1em 0;
 }
 
 .skill {
-    padding-bottom: 1em;
+    padding: 0 0 1em 1em;;
 }
+
+.hobby {
+    padding-bottom: 1.3em;
+}
+
