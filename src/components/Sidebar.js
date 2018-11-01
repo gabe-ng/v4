@@ -24,7 +24,7 @@ const Sidebar = () => {
                 </a>
               </li>)}
           </ul>
-          <p>&copy;Gabriel Ng 2018</p>
+          <p className="copyright">&copy;Gabriel Ng 2018</p>
         </section>
       </div>;
 }
