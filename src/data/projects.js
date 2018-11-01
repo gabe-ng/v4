@@ -7,7 +7,7 @@ const data = [
   {
     title: "Social Scape",
     desc:
-      "Social media platform to connect, chat, and share content with friends",
+      "A social media platform to connect, chat, and share content with friends.",
     tech: [
       "React",
       "Redux",
@@ -27,7 +27,7 @@ const data = [
   {
     title: "Wayfarer",
     desc:
-      "Online community to share travel experiences in popular cities around the world",
+      "An online community to share travel experiences of popular cities around the world.",
     tech: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
     image: wayfarer,
     repoLink: "https://github.com/gabe-ng/wayfarer",
@@ -37,7 +37,7 @@ const data = [
   {
     title: "Suite Health",
     desc:
-      "Health service to search food macronutrients and workouts and share custom meals and exercise circuits",
+      "A health service to search food macronutrients and workouts and share custom meals and exercise circuits.",
     tech: ["JS", "jQuery", "CSS", "Python", "Django", "Postgres", "Api.ai"],
     image: suitehealth,
     repoLink: "https://github.com/gabe-ng/suite-health",
@@ -46,7 +46,7 @@ const data = [
   },
   {
     title: "DevHub",
-    desc: "Search for Developer jobs, articles, and resources",
+    desc: "A centrailized hub to search for developer jobs, articles, and resources.",
     tech: ["React", "Axios", "Bootstrap"],
     repoLink: "https://github.com/gabe-ng/devhub",
     date: "September 2018",
@@ -54,7 +54,7 @@ const data = [
   },
   {
     title: "Personal Site V3",
-    desc: "Third iteration of my personal website",
+    desc: "The third iteration of my personal website using a dark theme.",
     tech: ["HTML", "CSS", "JS"],
     repoLink: "https://github.com/gabe-ng/gabe-ng.github.io",
     date: "August 2018",
@@ -62,7 +62,7 @@ const data = [
   },
   {
     title: "Bartender",
-    desc: "A cocktail search app helping you decide what to drink next",
+    desc: "A cocktail search app helping you decide what to drink next.",
     tech: ["jQuery", "CSS", "Node.js", "Express", "MongoDB"],
     image: bartender,
     repoLink: "https://github.com/gabe-ng/bartender",
@@ -71,7 +71,7 @@ const data = [
   },
   {
     title: "Frogger Clone",
-    desc: "Frogger arcade game clone made using HTML Canvas",
+    desc: "A frogger arcade game clone made using HTML Canvas.",
     tech: ["HTML", "HTML Canvas", "CSS", "JS"],
     repoLink: "https://github.com/gabe-ng/frogger-clone",
     date: "December 2017",

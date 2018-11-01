@@ -16,9 +16,9 @@
 }
 
 .sidebar .header {
-    height: 20em;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(201, 201, 201);
     margin-bottom: 2em;
+    padding-bottom: 4em;
 }
 
 .sidebar .header h1 {
@@ -33,7 +33,7 @@
 .sidebar-intro {
     height: 10em;
     padding: 2em 0;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(201, 201, 201);
 }
 
 .sidebar-intro p {
