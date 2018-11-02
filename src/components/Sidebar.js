@@ -7,12 +7,12 @@ const Sidebar = () => {
     return <div className="sidebar">
         <section className="header">
           <h1>Gabriel Ng</h1>
-          <p>gabe.v.ng@gmail.com</p>
+        <p><a href="mailto:gabe.v.ng@gmail.com" className="linked-text">gabe.v.ng@gmail.com</a></p>
         </section>
         <section className="sidebar-intro">
           <p>
-            Hi, I'm Gabriel. I am a <a href="https://www.econ.berkeley.edu/" target="_blank" rel="noopener noreferrer" class="text">UC Berkeley Economics</a> gradute and 
-            <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank" rel="noopener noreferrer" class="text"> General Assembly WDI</a> alum. I love all things JavaScript,and my
+            Hi, I'm Gabriel. I am a <a href="https://www.econ.berkeley.edu/" target="_blank" rel="noopener noreferrer" class="linked-text">UC Berkeley Economics</a> gradute and 
+            <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank" rel="noopener noreferrer" class="linked-text"> General Assembly WDI</a> alum. I love all things JavaScript,and my
             area of focus is full stack web development.{" "}
           </p>
         </section>
