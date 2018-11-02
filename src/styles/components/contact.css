@@ -36,6 +36,7 @@
 
 .contact ul {
     display: flex;
+    margin-bottom: 2em;
 }
 
 .contact .link {
