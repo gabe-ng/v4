@@ -8,6 +8,7 @@ const Contact = (props) => (
         <p className="subtitle">Let's get in touch</p>
       </header>
       <section>
+      <p className="contact-message">My inbox is always open. Whether you have a project in mind or would just like to chat, please feel free to reach out and I'll get back to you!</p>
       <ul>
         {props.data.map(icon => <li key={icon.label} className="link">
           <a href={`${icon.link}`} target="_blank" rel="noopener noreferrer">
