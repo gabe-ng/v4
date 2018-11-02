@@ -1,8 +1,9 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    width: 33%;
-    margin: 0 auto;
+    width: 22em;
+    min-width: 22em;
+    margin-right: 3.5em;
 }
 
 .sidebar section {
@@ -37,6 +38,7 @@
 }
 
 .sidebar-intro p {
+    font-size: .9em;
     line-height: 2;
 }
 
