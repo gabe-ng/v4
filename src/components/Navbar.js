@@ -1,39 +1,35 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = props => {
-    let primaryStyles;
-    let altText;
+    let styles;
 
     if (props.nightMode) {
-        primaryStyles = {
-            "color": "white",
-            "backgroundColor": "black",
-            "borderColor": "red"
-        }
-        altText = {
-            "color": "red",
+        styles = {
+            primary: { "color": "white" },
+            alt: { "color": "red" },
+            background: { "backgroundColor": "black" },
+            border: { "borderColor": "red" },
         }
     } else {
-        primaryStyles = {
-            "backgroundColor": "white",
-            "borderColor": "lightgrey"
-        }
-        altText = {
-            "color": "rgb(165, 165, 165)"
+        styles = {
+            primary: { "color": "black" },
+            alt: { "color": "rgb(165, 165, 165)" },
+            background: { "backgroundColor": "white" },
+            border: { "borderColor": "lightgrey" },
         }
     }
     console.log("rendered", "night is", props.nightMode)
     return (
-        <nav className="main-nav" style={primaryStyles}>
-            <h1 style={primaryStyles}>
+        <nav className="main-nav" style={{ ...styles.background, ...styles.border}}>
+            <h1 style={{...styles.primary, ...styles.border}}>
                 <NavLink to="/" exact>Gabriel Ng</NavLink>
             </h1>
-            <ul className="links" style={altText}>
-                <li><NavLink className="link" to="/about" style={primaryStyles}>About</NavLink></li>
-                <li><NavLink className="link" to="/projects" style={primaryStyles}>Projects</NavLink></li>
-                <li><NavLink className="link" to="/experience" style={primaryStyles}>Experience</NavLink></li>
-                <li><NavLink className="link last" to="/contact" style={primaryStyles}>Contact</NavLink></li>
+            <ul className="links">
+                <li><NavLink className="link" to="/about" style={{...styles.alt, ...styles.border}}>About</NavLink></li>
+                <li><NavLink className="link" to="/projects" style={{...styles.alt, ...styles.border}}>Projects</NavLink></li>
+                <li><NavLink className="link" to="/experience" style={{...styles.alt, ...styles.border}}>Experience</NavLink></li>
+                <li><NavLink className="link last" to="/contact" style={{...styles.alt, ...styles.border}}>Contact</NavLink></li>
             </ul>
 
             <button onClick={props.toggleNight}>Toggle the night!</button>
