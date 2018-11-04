@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Intro = () => {
     return <div className="intro">
         <header>
-          <h1 class="title sliding-vertical fadeinUp">
+          <h1 className="title sliding-vertical fadeinUp">
             <span>Hello</span>
             <span>Bonjour</span>
             <span>Hola</span>

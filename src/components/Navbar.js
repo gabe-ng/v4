@@ -1,34 +1,47 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Navbar = props => {
-    let primaryStyles;
-    let altText;
+class Navbar extends Component {
+    
+    render () {
+        let primaryStyles;
+        let altText;
 
-    if (props.nightMode) {
+        if (this.props.nightMode) {
+            primaryStyles = {
+                "color": "white",
+                "backgroundColor": "black",
+                "borderColor": "red"
+            }
+            altText = {
+                "color": "whitesmoke",
+            }
+        } else {
+            primaryStyles = {
+                "backgroundColor": "white",
+                "borderColor": "lightgrey"
+            }
+            altText = {
+                "color": "rgb(165, 165, 165)"
+            }
+        }
+        console.log("rendered", "night is", this.props.nightMode)
+        return (
+            <nav className="main-nav" style={primaryStyles}>
+                <h1 style={primaryStyles}>
+                    <NavLink to="/" exact>Gabriel Ng</NavLink>
+                </h1>
+                <ul className="links" style={altText}>
+                    <li><NavLink className="link" to="/about" style={primaryStyles}>About</NavLink></li>
+                    <li><NavLink className="link" to="/projects" style={primaryStyles}>Projects</NavLink></li>
+                    <li><NavLink className="link" to="/experience" style={primaryStyles}>Experience</NavLink></li>
+                    <li><NavLink className="link last" to="/contact" style={primaryStyles}>Contact</NavLink></li>
+                </ul>
 
-    } else {
-        primaryStyles = {
-            "backgroundColor": "white",
-            "borderColor": "lightgrey"
-        }
-        altText = { 
-            "color": "rgb(165, 165, 165)"
-        }
+                <button onClick={this.props.toggleNight}>Toggle the night!</button>
+            </nav>
+        )
     }
-    return (
-        <nav className="main-nav" style={primaryStyles}>
-            <h1 style={primaryStyles}>
-                <NavLink to="/" exact>Gabriel Ng</NavLink>
-            </h1>
-            <ul className="links" style={altText}>
-                <li><NavLink className="link" to="/about" style={primaryStyles}>About</NavLink></li>
-                <li><NavLink className="link" to="/projects" style={primaryStyles}>Projects</NavLink></li>
-                <li><NavLink className="link" to="/experience" style={primaryStyles}>Experience</NavLink></li>
-                <li><NavLink className="link last" to="/contact" style={primaryStyles}>Contact</NavLink></li>
-            </ul>
-        </nav>
-    )
 }
 
 export default Navbar;
