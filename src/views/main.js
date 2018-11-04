@@ -12,14 +12,14 @@ class Main extends Component {
     console.log("changing state");
     
     this.setState({
-      nightMode: !this.state.nightMode,
+      nightMode: !(this.state.nightMode),
     })
   }
 
   render() {
     console.log(this.state.nightMode)
     return <div>
-        <Navbar nightMode={this.state.nightMode} toggleNight={this.state.toggleNightMode}/>
+        <Navbar nightMode={this.state.nightMode} toggleNight={this.toggleNightMode}/>
         <Base nightMode={this.state.nightMode} />
       </div>;
   }
