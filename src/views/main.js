@@ -4,13 +4,15 @@ import Navbar from "../components/Navbar";
 import Base from "../components/Base";
 
 class Main extends Component {
+  state = {
+    nightMode: false,
+  }
+
   render() {
-    return (
-      <div>
-        <Navbar />
-        <Base />
-      </div>
-    );
+    return <div>
+        <Navbar nightMode={this.state.nightMode} />
+        <Base nightMode={this.state.nightMode} />
+      </div>;
   }
 }
 
