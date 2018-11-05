@@ -9,9 +9,9 @@ const Navbar = props => {
     if (props.nightMode) {
         styles = {
             primary: { "color": "rgb(81, 214, 179)" },
-            alt: { "color": "#59FFD2" },
+            alt: { "color": "rgb(168, 178, 209)" },
             background: { "backgroundColor": "rgb(30, 54, 95)" },
-            border: { "borderColor": "#59FFD2" },
+            border: { "borderColor": "rgb(81, 214, 179)" },
         }
     } else {
         styles = {

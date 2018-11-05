@@ -13,27 +13,26 @@ import data from "../data";
 const Content = props =>  {
     let styles;
 
-    if(props.nightMode) {
+    if (props.nightMode) {
         styles = {
-            primary: { "color": "#59FFD2" },
             background: { "backgroundColor": "rgb(30, 54, 95)" },
-            border: { "borderColor": "#59FFD2" },
+            border: { "borderColor": "rgb(81, 214, 179)" },
         }
     } else {
         styles = {
-            primary: { "color": "black" },
             background: { "backgroundColor": "white" },
             border: { "borderColor": "lightgrey" },
+        }
     }
-}
+
     return (
-        <div className="content" style={{...styles.primary, ...styles.background, ...styles.border}}>
+        <div className="content" style={{...styles.background, ...styles.border}}>
             <Switch>
-                <Route path="/" exact component={Intro} style={{...styles.border}}/> 
-                <Route path="/about" exact render={props => <About {...props} data={data.about} style={styles}/>} />
-                <Route path="/projects" exact render={props => <Projects {...props } data={data.projects} />}/>
-                <Route path="/experience" exact render={props => <Experience {...props} data={data.experience} />} />
-                <Route path="/contact" exact render={props => <Contact {...props} data={data.contact} />} /> 
+                <Route path="/" exact render={passedProps => <Intro {...passedProps} nightMode={props.nightMode} />} /> 
+                <Route path="/about" exact render={passedPprops => <About {...passedPprops} data={data.about} nightMode={props.nightMode} />} />
+                <Route path="/projects" exact render={passedPprops => <Projects {...passedPprops} data={data.projects} nightMode={props.nightMode}/>}/>
+                <Route path="/experience" exact render={passedPprops => <Experience {...passedPprops} data={data.experience} nightMode={props.nightMode}/>} />
+                <Route path="/contact" exact render={passedPprops => <Contact {...passedPprops} data={data.contact} nightMode={props.nightMode}/>} /> 
             </Switch>
         </div>
     )

@@ -14,7 +14,7 @@ class Toggle extends Component {
                         base: 'rgb(250,250,250)',
                     },
                     activeThumb: {
-                        base: '#59FFD2',
+                        base: 'rgb(81, 214, 179)',
                     },
                     inactive: {
                         base: 'rgb(207,221,245)',

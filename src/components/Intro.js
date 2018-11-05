@@ -1,19 +1,36 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import { NavLink } from 'react-router-dom';
 
-const Intro = () => {
-    return <div className="intro">
-        <header>
+const Intro = props => {
+    let styles;
+
+    if (props.nightMode) {
+        styles = {
+            primary: { "color": "rgb(81, 214, 179)" },
+            altColor: { "color": "rgb(168, 178, 209)" },
+            border: { "borderColor": "rgb(81, 214, 179)" },
+        }
+    } else {
+        styles = {
+            primary: { "color": "black" },
+            altColor: { "color": "black"},
+            border: { "borderColor": "lightgrey" },
+        }
+    }
+
+    return (<div className="intro">
+        <header style={styles.border}>
           <h1 className="title sliding-vertical fadeinUp">
-            <span>Hello</span>
-            <span>Bonjour</span>
-            <span>Hola</span>
-            <span>Ni Hao</span>
-            <span>Shalom</span>
+            <span style={styles.primary}>Hello</span>
+            <span style={styles.primary}>Bonjour</span>
+            <span style={styles.primary}>Hola</span>
+            <span style={styles.primary}>Ni Hao</span>
+            <span style={styles.primary}>Shalom</span>
           </h1>
         </header>
         <section>
-          <p>
+          <p style={styles.altColor}>
             Welcome and thanks for checking out my site. Please feel free to explore, send me a <NavLink to="/contact" className="link">
               message
             </NavLink>, or view out the site's <a href="https://github.com/gabe-ng/v4" target="_blank" rel="noopener noreferrer" className="link">
@@ -21,7 +38,15 @@ const Intro = () => {
             </a>.
           </p>
         </section>
-      </div>;
+      </div>);
 }
+
+Intro.propTypes = {
+    nightMode: PropTypes.bool.isRequired
+};
+
+Intro.defaultProps = {
+    nightMode: false
+};
 
 export default Intro;

@@ -8,10 +8,11 @@ const Sidebar = props => {
 
     if (props.nightMode) {
       styles = {
-        primary: { "color": "#59FFD2"},
-        contactColor: { "color": "#59FFD2" },
-        border: { "borderColor": "#59FFD2" },
-        linkBorder: { "borderColor": "#59FFD2" },
+        primary: { "color": "rgb(81, 214, 179)"},
+        altColor: { "color": "rgb(168, 178, 209)"},
+        contactColor: { "color": "rgb(81, 214, 179)" },
+        border: { "borderColor": "rgb(81, 214, 179)" },
+        linkBorder: { "borderColor": "rgb(81, 214, 179)" },
       }
   } else {
       styles = {
@@ -29,7 +30,7 @@ const Sidebar = props => {
         <p><a href="mailto:gabe.v.ng@gmail.com" className="linked-text" styles={styles.linkBorder}>gabe.v.ng@gmail.com</a></p>
         </section>
         <section className="sidebar-intro" style={styles.border}>
-          <p>
+          <p style={styles.altColor}>
             Hi, I'm Gabriel. I am a <a href="https://www.econ.berkeley.edu/" target="_blank" rel="noopener noreferrer" className="linked-text">UC Berkeley Economics</a> gradute and 
             <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank" rel="noopener noreferrer" className="linked-text"> General Assembly WDI</a> alum. I love all things JavaScript,and my
             area of focus is full stack web development.{" "}
