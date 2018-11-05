@@ -1,10 +1,16 @@
 .main-nav {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     position: fixed;
     margin-bottom: 3em;
     border-bottom: 1px solid;
     z-index: 10;
+}
+
+.nav-wrap{
+    display: flex;
+    
 }
 
 .main-nav h1 {
@@ -32,4 +38,9 @@
 
 .link.last{
     border: none;
+}
+
+.toggle {
+    display: flex;
+    padding-right: 2em;
 }
