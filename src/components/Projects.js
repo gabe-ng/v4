@@ -23,6 +23,7 @@ const Projects = props => {
       border: { "borderColor": "lightgrey" },
     }
   }
+
   return (
     <div className="projects">
       <header style={styles.border}>
@@ -50,7 +51,7 @@ const Projects = props => {
         <div className="other">
         {nonfeatured.map(project => (
           <article key={project.title} className="project" style={styles.border}>
-            <Icon icon={code} size={30} className="code" style={styles.primary}/>
+            <Icon icon={code} size={30} className="code" style={styles.altColor}/>
             <a href={`${project.repoLink}`} target="_blank" rel="noopener noreferrer"><Icon icon={githubSquare} size={30} className="gh" style={styles.primary}/></a>
             <div style={styles.altColor}>
               <h2>{project.title}</h2><span className="date">{project.date}</span>

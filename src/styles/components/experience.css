@@ -10,7 +10,7 @@
     justify-content: center;
     margin-bottom: 2em;
     padding-left: 3em;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid;
 }
 
 .experience .title {
@@ -38,7 +38,7 @@
     width: 95%;
     margin: 2em auto;
     padding: 1em;
-    border: 1px solid lightgrey;
+    border: 1px solid;
 }
 
 .job h2 {
@@ -53,7 +53,6 @@
 
 .job a {
     font-size: 1.1em;
-    border-bottom: 1px dotted;
 }
 
 .job p {

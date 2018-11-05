@@ -10,7 +10,7 @@
     justify-content: center;
     margin-bottom: 2em;
     padding-left: 3em;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid;
 }
 
 .contact .title {
@@ -39,10 +39,6 @@
     line-height: 2;
 }
 
-.contact-message a {
-    border-bottom: 1px dotted;
-}
-
 .contact ul {
     display: flex;
     margin-bottom: 2em;
@@ -51,4 +47,8 @@
 .contact .link {
     padding-right: 1em;
     opacity: .6;
+}
+
+.contact .link:hover {
+    opacity: 1;
 }

@@ -36,6 +36,11 @@
     border-right: 1px solid;
 }
 
+.main-nav h1:hover,
+.link:hover {
+    opacity: .5;
+}
+
 .link.last{
     border: none;
 }
