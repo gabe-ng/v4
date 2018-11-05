@@ -6,6 +6,7 @@
     margin-bottom: 3em;
     border-bottom: 1px solid;
     z-index: 10;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .nav-wrap{

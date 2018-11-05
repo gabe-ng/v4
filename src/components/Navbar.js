@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import { NavLink } from 'react-router-dom';
 import Toggle from "./ToggleButton";
 
@@ -7,7 +8,7 @@ const Navbar = props => {
 
     if (props.nightMode) {
         styles = {
-            primary: { "color": "white" },
+            primary: { "color": "rgb(81, 214, 179)" },
             alt: { "color": "#59FFD2" },
             background: { "backgroundColor": "rgb(30, 54, 95)" },
             border: { "borderColor": "#59FFD2" },
@@ -40,6 +41,14 @@ const Navbar = props => {
    
         </nav>
     )
+}
+
+Navbar.propTypes = {
+    nightMode: PropTypes.bool.isRequired,
+}
+
+Navbar.defaultProps = {
+    nightMode: false,
 }
 
 export default Navbar;

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from "prop-types";
 import Sidebar from "./Sidebar";
 import Content from "../containers/Content";
 
@@ -18,10 +18,18 @@ const Base = props => {
 
     return (
         <div className="base" style={{...styles.background}}>
-            <Sidebar nightMode={this.props.nightMode}/>
-            <Content nightMode={this.props.nightMode}/>
+            <Sidebar nightMode={props.nightMode}/>
+            <Content nightMode={props.nightMode}/>
         </div>
     )
 }
+
+Base.propTypes = {
+  nightMode: PropTypes.bool.isRequired
+};
+
+Base.defaultProps = {
+  nightMode: false
+};
 
 export default Base;

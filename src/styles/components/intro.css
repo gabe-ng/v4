@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 3em;
-    border-bottom: 1px solid lightgrey;
+	border-bottom: 1px solid;
 }
 
 .intro .title {

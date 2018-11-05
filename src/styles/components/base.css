@@ -6,4 +6,5 @@
     top: 3.1em;
     padding: 3em 6em;
     margin: 0 auto;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
