@@ -5,8 +5,7 @@
 /*** Global ***/
 body {
     font-family: "Raleway";
-    background: whitesmoke;
-    transition: background-color 5s linear;
+    /* transition: background-color 5s linear; */
 }
 
 /*** Layout ***/

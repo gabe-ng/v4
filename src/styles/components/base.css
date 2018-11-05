@@ -1,9 +1,9 @@
 .base {
     height: 100%;
-    min-height: 82vh;
+    min-height: 100vh;
     display: flex;
     position: relative;
-    top: 3.45em;
+    top: 3.1em;
     padding: 3em 6em;
     margin: 0 auto;
 }
