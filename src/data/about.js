@@ -7,7 +7,7 @@ const data = {
     },
     planningToLearn: ["Next.js", "GraphQL", "Brain.js", "Tensorflow"],
     hobbies: ["Cooking", "Working out", "Playing video games", "Jogging around San Francisco",  "Exploring new restaurants and cuisines", "Traveling somewhere new with my girlfriend", "Having a beer and watching sports with my buddies"],
-    facts: ["Currently 22 years old", "Living in San Francisco, CA", "Favorite food is Sushi", "Planning to be a Samoyed dad in the near future", ]
+    facts: ["Currently 22 years old", "Living in San Francisco, CA", "Favorite food is sushi", "Planning to be a Samoyed dad in the near future", ]
 }
 
 export default data;

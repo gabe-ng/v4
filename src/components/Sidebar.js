@@ -19,20 +19,20 @@ const Sidebar = props => {
         primary: { "color": "black" },
         contactColor: { "color": "grey" },
         border: { "borderColor": "rgb(201, 201, 201)"},
-        linkBorder: { "borderColor": "lightgrey" },
+        linkBorder: { "borderColor": "grey" },
       }
   }
 
     
-    return <div className="sidebar" style={styles.primary}>
+    return <div className="sidebar">
         <section className="header" style={styles.border}>
-          <h1>Gabriel Ng</h1>
-        <p><a href="mailto:gabe.v.ng@gmail.com" className="linked-text" styles={styles.linkBorder}>gabe.v.ng@gmail.com</a></p>
+          <h1 style={styles.primary}>Gabriel Ng</h1>
+        <p><a href="mailto:gabe.v.ng@gmail.com" className="linked-text" style={{...styles.linkBorder, ...styles.altColor}}>gabe.v.ng@gmail.com</a></p>
         </section>
         <section className="sidebar-intro" style={styles.border}>
           <p style={styles.altColor}>
-            Hi, I'm Gabriel. I am a <a href="https://www.econ.berkeley.edu/" target="_blank" rel="noopener noreferrer" className="linked-text">UC Berkeley Economics</a> gradute and 
-            <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank" rel="noopener noreferrer" className="linked-text"> General Assembly WDI</a> alum. I love all things JavaScript,and my
+            Hi, I'm Gabriel. I am a <a href="https://www.econ.berkeley.edu/" target="_blank" rel="noopener noreferrer" className="linked-text" style={styles.linkBorder}>UC Berkeley Economics</a> gradute and 
+            <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank" rel="noopener noreferrer" className="linked-text" style={styles.linkBorder}> General Assembly WDI</a> alum. I love all things JavaScript,and my
             area of focus is full stack web development.{" "}
           </p>
         </section>

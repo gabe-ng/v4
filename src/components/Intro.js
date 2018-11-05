@@ -10,16 +10,18 @@ const Intro = props => {
             primary: { "color": "rgb(81, 214, 179)" },
             altColor: { "color": "rgb(168, 178, 209)" },
             border: { "borderColor": "rgb(81, 214, 179)" },
+            linkBorder: { "borderColor": "rgb(81, 214, 179)" }
         }
     } else {
         styles = {
             primary: { "color": "black" },
             altColor: { "color": "black"},
             border: { "borderColor": "lightgrey" },
+            linkBorder: { "borderColor": "grey" }
         }
     }
 
-    return (<div className="intro">
+    return <div className="intro">
         <header style={styles.border}>
           <h1 className="title sliding-vertical fadeinUp">
             <span style={styles.primary}>Hello</span>
@@ -31,14 +33,14 @@ const Intro = props => {
         </header>
         <section>
           <p style={styles.altColor}>
-            Welcome and thanks for checking out my site. Please feel free to explore, send me a <NavLink to="/contact" className="link">
+            Welcome and thanks for checking out my site. Please feel free to explore, send me a <NavLink to="/contact" className="link" style={styles.linkBorder}>
               message
-            </NavLink>, or view out the site's <a href="https://github.com/gabe-ng/v4" target="_blank" rel="noopener noreferrer" className="link">
+            </NavLink>, or view out the site's <a href="https://github.com/gabe-ng/v4" target="_blank" rel="noopener noreferrer" className="link" style={styles.linkBorder}>
               code
             </a>.
           </p>
         </section>
-      </div>);
+      </div>;
 }
 
 Intro.propTypes = {
