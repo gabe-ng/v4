@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Toggle from "./ToggleButton";
 
 const Navbar = props => {
     let styles;
@@ -31,8 +32,7 @@ const Navbar = props => {
                 <li><NavLink className="link" to="/experience" style={{...styles.alt, ...styles.border}}>Experience</NavLink></li>
                 <li><NavLink className="link last" to="/contact" style={{...styles.alt, ...styles.border}}>Contact</NavLink></li>
             </ul>
-
-            <button onClick={props.toggleNight}>Toggle the night!</button>
+            <Toggle toggle={props.toggleNight} className="toggle"/>
         </nav>
     )
 }
