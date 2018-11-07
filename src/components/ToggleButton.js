@@ -17,7 +17,7 @@ class Toggle extends Component {
                         base: 'rgb(81, 214, 179)',
                     },
                     inactive: {
-                        base: 'rgb(207,221,245)',
+                        base: 'rgb(223, 223, 223)',
                         hover: 'rgb(177, 191, 215)',
                     },
                     active: {
