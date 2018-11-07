@@ -41,7 +41,7 @@ const Navbar = props => {
                 <Toggle toggle={props.toggleNight} />
             </div>
                 <div className="hamburger">
-                    <SideMenu />
+                    <SideMenu nightMode={props.nightMode}/>
                 </div>
             </div>
         </nav>

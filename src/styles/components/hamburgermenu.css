@@ -1,8 +1,6 @@
 .bm-burger-bars {
-    background: black;
     width: 1.5em;
     left: auto !important;
-    /* top: 0 !important; */
 }
 
 .bm-burger-button button {
@@ -16,8 +14,7 @@
 }
 
 .bm-menu {
-    background: whitesmoke;
-    border-left: 1px solid lightgrey;
+    border-left: 1px solid;
     margin-top: -1em;
     padding: 3.5em 1.5em 0;
     font-size: 1.15em;
