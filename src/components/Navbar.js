@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from "prop-types";
 import { NavLink } from 'react-router-dom';
 import Toggle from "./ToggleButton";
+import SideMenu from "./HamburgerMenu";
 
 const Navbar = props => {
     let styles;
@@ -35,10 +36,14 @@ const Navbar = props => {
                     <li><NavLink className="link last" to="/contact" style={{...styles.alt, ...styles.border}}>Contact</NavLink></li>
                 </ul>
             </div>
+            <div className="toggle-wrap">
             <div className="toggle">
                 <Toggle toggle={props.toggleNight} />
             </div>
-   
+                <div className="hamburger">
+                    <SideMenu />
+                </div>
+            </div>
         </nav>
     )
 }

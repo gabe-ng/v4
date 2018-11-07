@@ -45,7 +45,32 @@
     border: none;
 }
 
+.toggle-wrap {
+    display: flex;
+    align-items: center;
+}
+
 .toggle {
     display: flex;
     padding-right: 2em;
+}
+
+.hamburger {
+    display: none;
+    color: black;
+}
+
+@media only screen and (max-width: 980px) {
+    .nav-wrap h1 {
+        border: none;
+    }
+
+    .nav-wrap .links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        padding-right: 1em;
+    }
 }
