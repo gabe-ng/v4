@@ -20,7 +20,7 @@ const data = [
         icon: linkedin
     },
     {
-        link: "mailto:gabe.v.ng@gmail.com",
+        link: "mailto:hello@gabrielng.tech",
         label: "Email",
         icon: envelope
     },

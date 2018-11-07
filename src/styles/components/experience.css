@@ -59,3 +59,19 @@
     padding-top: 1em;
     line-height: 2;
 }
+
+@media only screen and (max-width: 439px) {
+    .job h2 {
+        font-size: 1.1em;
+    }
+
+    .job span {
+        float: inherit;
+        display: block;
+        padding-top: 1.3em;
+    }
+
+    .job p {
+        font-size: .9em;
+    }
+}

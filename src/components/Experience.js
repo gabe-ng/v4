@@ -30,7 +30,7 @@ const Experience = props => {
         {props.data.map(job => (
           <article className="job" style={{...styles.altColor, ...styles.border}}>
           <h2>{job.position}</h2>
-          <a href={`${job.link}`} target="_blank" rel="noopener noreferrer" className="linked-text" style={styles.linkBorder}>{job.company}</a><span>{job.duration}</span>
+          <a href={`${job.link}`} target="_blank" rel="noopener noreferrer" className="linked-text" style={styles.linkBorder}>{job.company}</a><span className="duration">{job.duration}</span>
           <p>{job.description}</p>
           </article>
         ))}
