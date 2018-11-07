@@ -8,3 +8,9 @@
     margin: 0 auto;
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+
+@media only screen and (max-width: 1315px) {
+    .base {
+        flex-direction: column;
+    }
+}

@@ -36,8 +36,7 @@
 }
 
 .sidebar-intro {
-    height: 10em;
-    padding: 2em 0;
+    padding: 2em 0 4em;
     border-bottom: 1px solid;
 }
 
@@ -64,4 +63,25 @@
 .copyright {
     opacity: .4;
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@media only screen and (max-width: 1315px) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .header {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .sidebar ul {
+        width: 70%;
+    }
+
+    .copyright {
+        float: right;
+        position: relative;
+        top: -3em;
+    }
 }
