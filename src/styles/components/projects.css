@@ -87,12 +87,12 @@
 .other {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 95%;
     margin: 1em auto;
 }
 .other .project {
     width: 45%;
-    margin: 1em;
+    margin: 1.5em auto;
     border: 1px solid;
 }
 
