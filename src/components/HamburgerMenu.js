@@ -9,7 +9,7 @@ class SideMenu extends Component {
 
     render() {
         return (
-            <Menu right width={400} className="menu">
+            <Menu right width={300} noOverlay>
                 <NavLink className="link ham-link" to="/about" >About</NavLink>
                 <NavLink className="link ham-link" to="/projects">Projects</NavLink>
                 <NavLink className="link ham-link" to="/experience">Experience</NavLink>

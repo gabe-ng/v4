@@ -52,7 +52,7 @@
 
 .toggle {
     display: flex;
-    padding-right: 2em;
+    padding-right:  2em;
 }
 
 .hamburger {
@@ -67,6 +67,14 @@
 
     .nav-wrap .links {
         display: none;
+    }
+
+    .toggle-wrap {
+        width: 8em;
+    }
+
+    .toggle  {
+        padding-right: 0;
     }
 
     .hamburger {

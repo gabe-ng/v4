@@ -1,19 +1,30 @@
 .bm-burger-bars {
-        color: black;
-    }
+    background: black;
+    width: 1.5em;
+    left: auto !important;
+    /* top: 0 !important; */
+}
+
+.bm-burger-button button {
+    position: relative !important;
+    width: 2em;
+}
+
+.bm-burger-button span {
+    position: relative;
+    right: -2.5em;
+}
 
 .bm-menu {
     background: whitesmoke;
     border-left: 1px solid lightgrey;
-    margin-top: 1.4em;
-    padding: 2.5em 1.5em 0;
+    margin-top: -1em;
+    padding: 3.5em 1.5em 0;
     font-size: 1.15em;
 }
 
-.bm-item-list {
-    color: black;
-}
-
 .link.ham-link {
+    font-size: 1em;
+    padding-bottom: 1em;
     border: none;
 }
