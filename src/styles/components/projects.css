@@ -139,9 +139,13 @@
     opacity: 1;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1358px) {
     .other {
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+    }
+
+    .other .project {
+        width: 95%;
     }
 }
