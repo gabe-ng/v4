@@ -27,7 +27,7 @@ const Sidebar = props => {
     return <div className="sidebar">
         <section className="header" style={styles.border}>
           <h1 style={styles.primary}>Gabriel Ng</h1>
-        <p><a href="mailto:gabe.v.ng@gmail.com" className="linked-text" style={{...styles.linkBorder, ...styles.altColor}}>gabe.v.ng@gmail.com</a></p>
+        <p><a href="mailto:hello@gabrielng.tech" className="linked-text" style={{...styles.linkBorder, ...styles.altColor}}>hello@gabrielng.tech</a></p>
         </section>
         <section className="sidebar-intro" style={styles.border}>
           <p style={styles.altColor}>
