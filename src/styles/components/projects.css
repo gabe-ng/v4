@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3em 0;
+    padding: 2em 0;
 }
 
 .featured.project{
@@ -92,7 +92,7 @@
 }
 .other .project {
     width: 45%;
-    margin: 1.5em auto;
+    margin: 1em auto;
     border: 1px solid;
 }
 
