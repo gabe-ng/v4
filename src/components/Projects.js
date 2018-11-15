@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Icon } from "react-icons-kit";
 import { githubSquare } from 'react-icons-kit/fa/githubSquare';
 import { code } from 'react-icons-kit/fa/code';
+import { externalLinkSquare } from 'react-icons-kit/fa/externalLinkSquare';
 
 const Projects = props => {
   const featured = props.data.filter(project => project.featured === true);
@@ -52,6 +53,7 @@ const Projects = props => {
         {nonfeatured.map(project => (
           <article key={project.title} className="project" style={styles.border}>
             <Icon icon={code} size={30} className="code" style={styles.altColor}/>
+            <a href={`${project.liveLink}`} target="_blank" rel="noopener noreferrer"><Icon icon={externalLinkSquare} size={30} className="el" style={styles.primary} /></a>
             <a href={`${project.repoLink}`} target="_blank" rel="noopener noreferrer"><Icon icon={githubSquare} size={30} className="gh" style={styles.primary}/></a>
             <div style={styles.altColor}>
               <h2>{project.title}</h2><span className="date">{project.date}</span>

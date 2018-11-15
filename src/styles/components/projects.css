@@ -96,8 +96,10 @@
     border: 1px solid;
 }
 
-.other .gh {
+.other .gh,
+.other .el {
     float: right;
+    padding: 1em 1em 0 0;
 }
 
 .other .code {
@@ -131,11 +133,13 @@
     padding-right: 1em;
 }
 
-.gh {
+.gh,
+.el {
     opacity: .6;
 }
 
-.gh:hover {
+.gh:hover,
+.el:hover {
     opacity: 1;
 }
 

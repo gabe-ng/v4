@@ -49,6 +49,7 @@ const data = [
     desc: "A centrailized hub to search for developer jobs, articles, and resources.",
     tech: ["React", "Axios", "Bootstrap"],
     repoLink: "https://github.com/gabe-ng/devhub",
+    liveLink: "https://gabe-ng.github.io/devhub/",
     date: "September 2018",
     featured: false
   },
@@ -57,6 +58,7 @@ const data = [
     desc: "The third iteration of my personal website using a dark theme.",
     tech: ["HTML", "CSS", "JS"],
     repoLink: "https://github.com/gabe-ng/gabe-ng.github.io",
+    liveLink: "https://gabe-ng.github.io/",
     date: "August 2018",
     featured: false
   },
@@ -66,6 +68,7 @@ const data = [
     tech: ["jQuery", "CSS", "Node.js", "Express", "MongoDB"],
     image: bartender,
     repoLink: "https://github.com/gabe-ng/bartender",
+    liveLink: "https://cocktailfinder.herokuapp.com/",
     date: "June 2018",
     featured: false
   },
@@ -74,6 +77,7 @@ const data = [
     desc: "A frogger arcade game clone made using HTML Canvas.",
     tech: ["HTML", "HTML Canvas", "CSS", "JS"],
     repoLink: "https://github.com/gabe-ng/frogger-clone",
+    liveLink: "https://gabe-ng.github.io/frogger-clone/",
     date: "December 2017",
     featured: false
   }
