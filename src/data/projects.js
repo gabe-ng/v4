@@ -21,6 +21,7 @@ const data = [
     ],
     image: socialscape,
     repoLink: "https://github.com/gabe-ng/social-scape",
+    liveLink: "https://social-scape.herokuapp.com",
     date: "August 2018",
     featured: true
   },
@@ -31,6 +32,7 @@ const data = [
     tech: ["React", "Node.js", "Express", "MongoDB", "Bootstrap"],
     image: wayfarer,
     repoLink: "https://github.com/gabe-ng/wayfarer",
+    liveLink: "https://gabe-ng.github.io/wayfarer-live/",
     date: "July 2018",
     featured: true
   },
@@ -46,7 +48,8 @@ const data = [
   },
   {
     title: "DevHub",
-    desc: "A centrailized hub to search for developer jobs, articles, and resources.",
+    desc:
+      "A centrailized hub to search for developer jobs, articles, and resources.",
     tech: ["React", "Axios", "Bootstrap"],
     repoLink: "https://github.com/gabe-ng/devhub",
     liveLink: "https://gabe-ng.github.io/devhub/",
