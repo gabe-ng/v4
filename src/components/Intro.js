@@ -35,7 +35,7 @@ const Intro = props => {
           <p style={styles.altColor}>
             Welcome and thanks for checking out my site. Please feel free to explore, send me a <NavLink to="/contact" className="link" style={styles.linkBorder}>
               message
-            </NavLink>, or view out the site's <a href="https://github.com/gabe-ng/v4" target="_blank" rel="noopener noreferrer" className="link" style={styles.linkBorder}>
+            </NavLink>, or view the site's <a href="https://github.com/gabe-ng/v4" target="_blank" rel="noopener noreferrer" className="link" style={styles.linkBorder}>
               code
             </a>.
           </p>
