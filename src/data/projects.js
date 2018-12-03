@@ -47,6 +47,15 @@ const data = [
     featured: true
   },
   {
+    title: "Space X Launches",
+    desc: "Past and planned Space X missions and launches.",
+    tech: ["React", "Express", "GraphQL", "Apollo"],
+    repoLink: "https://github.com/gabe-ng/spacex-launches",
+    liveLink: "https://space-launches.herokuapp.com/",
+    date: "December 2018",
+    featured: false
+  },
+  {
     title: "DevHub",
     desc:
       "A centrailized hub to search for developer jobs, articles, and resources.",
