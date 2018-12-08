@@ -38,7 +38,7 @@ const Projects = props => {
             <div style={styles.altColor}>
               <h2>{project.title}</h2>
               {project.liveLink ? 
-                <a href={`${project.liveLink}`} target="_blank" rel="noopener noreferrer" className="gh"><Icon icon={externalLinkSquare} size={30} style={styles.primary} /></a> : <div />}
+                <a href={`${project.liveLink}`} target="_blank" rel="noopener noreferrer" className="gh"><Icon icon={externalLinkSquare} size={30} style={styles.primary} /></a> : null}
               <a href={`${project.repoLink}`} target="_blank" rel="noopener noreferrer" className="gh"><Icon icon={githubSquare} size={30} style={styles.primary}/></a>
               <span className="date">{project.date}</span>
               <p>{project.desc}</p>
