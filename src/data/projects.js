@@ -56,6 +56,15 @@ const data = [
     featured: false
   },
   {
+    title: "Carta Investor Services Challenge",
+    desc: "Challenge to build a dynamic table UI with React.",
+    tech: ["React"],
+    repoLink: "https://github.com/gabe-ng/cis/",
+    liveLink: "https://gabe-ng.github.io/cis/",
+    date: "December 2018",
+    featured: false
+  },
+  {
     title: "DevHub",
     desc:
       "A centrailized hub to search for developer jobs, articles, and resources.",
