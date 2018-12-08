@@ -42,7 +42,3 @@ class Toggle extends Component {
 }
 
 export default Toggle;
-// trackStyle = { styles.trackStyle }
-// thumbStyle = { styles.thumbStyle }
-
-// thumbIcon={<ThumbIcon />}
