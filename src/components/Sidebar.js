@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from "prop-types";
 import { Icon } from 'react-icons-kit';
 import data from "../data";
+import profilePicture from "../images/gabriel.jpg";
 
 const Sidebar = props => {
     let styles;
@@ -26,6 +27,9 @@ const Sidebar = props => {
     
     return <div className="sidebar">
         <section className="header" style={styles.border}>
+          <div className="profile-image-container">
+            <img src={profilePicture} alt="Gabriel" className="profile-image"/>
+          </div>
           <h1 style={styles.primary}>Gabriel Ng</h1>
         <p><a href="mailto:hello@gabrielng.tech" className="linked-text" style={{...styles.linkBorder, ...styles.altColor}}>hello@gabrielng.tech</a></p>
         </section>

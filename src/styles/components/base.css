@@ -3,7 +3,7 @@
     min-height: 100vh;
     display: flex;
     position: relative;
-    top: 3.1em;
+    top: 3em;
     padding: 3em 6em;
     margin: 0 auto;
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
