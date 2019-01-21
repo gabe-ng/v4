@@ -38,7 +38,7 @@ const Navbar = props => {
             </div>
             <div className="toggle-wrap">
             <div className="toggle">
-                <Toggle toggle={props.toggleNight} />
+                <Toggle toggleNight={props.toggleNight} />
             </div>
                 <div className="hamburger">
                     <SideMenu nightMode={props.nightMode}/>

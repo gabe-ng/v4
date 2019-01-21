@@ -43,7 +43,7 @@ const Projects = props => {
               <span className="date">{project.date}</span>
               <p>{project.desc}</p>
               <ul className="tech-list">
-                {project.tech.map(tech => <li className="tech">{tech}</li>)}
+                {project.tech.map(tech => <li key={tech} className="tech">{tech}</li>)}
               </ul>
             </div>
           </article>
@@ -61,7 +61,7 @@ const Projects = props => {
               <h2>{project.title}</h2><span className="date">{project.date}</span>
               <p>{project.desc}</p>
               <ul className="tech-list">
-                {project.tech.map(tech => <li className="tech">{tech}</li>)}
+                {project.tech.map(tech => <li className="tech" key={tech}>{tech}</li>)}
               </ul>
             </div>
           </article>

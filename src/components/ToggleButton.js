@@ -33,7 +33,7 @@ class Toggle extends Component {
                     this.setState({
                         value: !value,
                     })
-                    this.props.toggle();
+                    this.props.toggleNight();
                 }} 
                 />
 

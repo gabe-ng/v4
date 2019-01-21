@@ -33,7 +33,7 @@ const Sidebar = props => {
           <p style={styles.altColor}>
             Hi, I'm Gabriel. I am a <a href="https://www.econ.berkeley.edu/" target="_blank" rel="noopener noreferrer" className="linked-text" style={styles.linkBorder}>UC Berkeley Economics</a> gradute and 
             <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank" rel="noopener noreferrer" className="linked-text" style={styles.linkBorder}> General Assembly WDI</a> alum. I love all things JavaScript,and my
-            area of focus is full stack web development.{" "}
+            area of focus is full stack web development.{" "}Currently a Software Engineer at <a href="https://www.jpmorganchase.com/" target="_blank" rel="noopener noreferrer" className="linked-text" style={styles.linkBorder}>JP Morgan Chase</a>.
           </p>
         </section>
         <section className="sidebar-contact">
