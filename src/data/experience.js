@@ -3,7 +3,7 @@ const data = [
     company: "JP Morgan Chase",
     position: "Software Engineer",
     duration: "January 2019 - Present",
-    description: "The first of many steps in my Software Engineering journey. This is the first position I had the opportunity to pursue upon graduating from my coding bootcamp.",
+    description: "So far I have worked to build out many new features for Chase.com. I have absolutley loved my time here so far on a team that has pushed me to learn quickly. Excited for the projects and work to come!",
     link: "https://www.jpmorganchase.com/"
   },
   {
