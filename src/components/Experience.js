@@ -21,14 +21,14 @@ const Experience = props => {
   }
 
   return (
-    <div class="experience">
+    <div className="experience">
       <header style={styles.border}>
         <h1 className="title" style={styles.primary}>Experience</h1>
         <p className="subtitle" style={styles.primary}>Some positions I've worked</p>
       </header>
       <section>
         {props.data.map(job => (
-          <article className="job" style={{...styles.altColor, ...styles.border}}>
+          <article className="job" style={{...styles.altColor, ...styles.border}} key={job.company}>
           <h2>{job.position}</h2>
           <a href={`${job.link}`} target="_blank" rel="noopener noreferrer" className="linked-text" style={styles.linkBorder}>{job.company}</a><span className="duration">{job.duration}</span>
           <p>{job.description}</p>
