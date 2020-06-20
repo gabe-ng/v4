@@ -31,7 +31,6 @@ const Experience = props => {
           <article className="job" style={{...styles.altColor, ...styles.border}} key={job.company}>
           <h2>{job.position}</h2>
           <a href={`${job.link}`} target="_blank" rel="noopener noreferrer" className="linked-text" style={styles.linkBorder}>{job.company}</a><span className="duration">{job.duration}</span>
-          <p>{job.description}</p>
           </article>
         ))}
       </section>

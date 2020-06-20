@@ -23,7 +23,7 @@ const data = [
     repoLink: "https://github.com/gabe-ng/social-scape",
     liveLink: "https://social-scape.herokuapp.com",
     date: "August 2018",
-    featured: true
+    featured: false
   },
   {
     title: "Wayfarer",
@@ -44,7 +44,7 @@ const data = [
     image: suitehealth,
     repoLink: "https://github.com/gabe-ng/suite-health",
     date: "July 2018",
-    featured: true
+    featured: false
   },
   {
     title: "Space X Launches",
